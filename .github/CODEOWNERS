@@ -1,0 +1,17 @@
+# CODEOWNERS — auto-assigns reviewers to PRs
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything
+* @ArangoGutierrez @klueska @elezar
+
+# Mock NVML library
+/pkg/gpu/mocknvml/ @ArangoGutierrez @elezar
+
+# Helm chart
+/deployments/nvml-mock/ @ArangoGutierrez @klueska
+
+# CI workflows
+/.github/workflows/ @ArangoGutierrez @klueska @elezar
+
+# E2E tests
+/tests/e2e/ @ArangoGutierrez @klueska
